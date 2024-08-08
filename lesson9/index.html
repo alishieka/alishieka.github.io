@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page of week 9 in WDD 230.">
+    <title>Idaho Met Service</title>
+    <link rel="shortcut icon" href="sitelogo.png">
+    <link rel="stylesheet" href="normalize2.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+</head>
+<body>
+    <div id="prestonPancakes">
+        <p>Saturday = Preston Pancakes in the Park!
+        <br>9:00 a.m. Saturday at the city park pavilion.</p> 
+    </div>
+    <header>
+            <img src="sitelogo.png" alt="weather site logo">
+            <section class="headings">
+                <h1>Idaho Met Service</h1>
+                <div class="moto">Serving you every season</div>
+            </section>        
+    </header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li class="active"><a href="https://alishieka.github.io/lesson9/index.html">Home</a></li>
+            <li><a href="https://alishieka.github.io/lesson-10/preston-10.html">Preston</a></li>
+            <li><a href="https://alishieka.github.io/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://alishieka.github.io/lesson11-fishhaven/fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://alishieka.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://alishieka.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Locations</h2>
+        <div id="heroArea">
+            <picture>
+                <source media="(min-width:1000px)" srcset="largepic.jpg">
+                    <source media="(min-width:600px)" srcset="mediumpic.jpg">
+            <source media="(min-width:300px)" srcset="smallpic.jpg">
+           
+            <img src="smallpic.jpg" alt="landscape image">          </picture>
+
+            <div id="storybox">
+                <h3><u>Thunderstorm Warning!</u></h3>
+                <p>Watch out for a thunderstorm in Soda Springs.</p>
+                    <p>Please seek shelter for pets immediately.</p> 
+                    <p>Protect your property and life.</p>
+                    <p>Check back here for updates.</p>
+            </div>
+
+            
+           
+           
+        </div>
+        <div id="allTownInfo">
+            <article> 
+                <h6>Town Data</h6>
+                             
+                <figure class="townInfoImg">
+                    <img src="preston.jpg" alt="road in Preston" loading="lazy">
+                </figure>
+                <div class="homeDataPreston"></div>
+            </article>
+            <article>
+                <h6>Town Data</h6>
+                
+         
+                <figure class="townInfoImg">
+                    <img src="sodasprings.jpg" alt="road in Soda Springs" loading="lazy">
+                </figure>           
+                <div class="homeDataSodaSprings"></div>
+                <div id="wireframes"><a href="https://alishieka.github.io/lesson9/wireframe.html">Wireframe Sketches</a></div>
+            </article>
+            <article>
+                <h6>Town Data</h6>
+               
+            
+                <figure class="townInfoImg">
+                    <img src="fishhaven.jpg" alt="road in Fish Haven" loading="lazy">
+                </figure>
+                <div class="homeDataFishhaven"></div>
+               
+            </article>
+        </div>
+        <div id="articleArea">
+            <h3>Idaho Met Service</h3>
+            <figure class="articleImg">
+                <img src="weather.jpg" alt="picture of article" loading="lazy">
+            </figure>
+            <p>Idaho Met Service is a meteorological organization, established in 2021 and based in Rexburg, Idaho. Operated and owned by meteorologists, Idaho Met Service specializes in forecasting weather for locations around Idaho. Idaho Met Service also gives a variety of weather training courses for the military as well as the public. Idaho Met Service gives specialized forecasts for important weather-dependent activities, like weddings, concerts, or parties.</p>
+        </div>
+    </main>
+    <footer>
+        <div id="contactArea">
+            <img id="mapImg" src="idahomap.jpg" alt="image of clouds" loading="lazy">
+            <section id="contactTextArea">
+                <h3>Contact Information</h3>
+                <p>30 N 1st E<br>Preston, ID 83263</p>
+                <p>☎ 208.625.2640<br>✉ contact@idahometservices.us</p>
+                <div>
+                    <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="facebook.png" alt="Facebook icon" loading="lazy">&ensp;</a>
+                    <a href="https://pintrest.com/" target="_blank"><img class="socialIcon" src="pintrest.png" alt="Pintrest icon" loading="lazy">&ensp;</a>
+                    <a href="https://twitter.com/" target="_blank"><img class="socialIcon" src="twitter.png" alt="Twitter icon" loading="lazy"></a>
+                </div>
+            </section>
+        </div>   
+        <div id="footerBar">
+            <p>&copy;Idaho Met Service | <a href="https://openweathermap.org/"> Open Weather Map</a> | Shiekahadd Ali | <a href="https://alishieka.github.io/lesson9/terms.html">Terms of Use</a>
+            <br><span id="output"></span></p>
+        </div> 
+    </footer>
+    <script src="home.js"></script>
+    <script src="every.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>

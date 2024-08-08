@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUICK oil change and repair | Request Service</title>
+    <link rel="stylesheet" href="quick.css?v=7">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1611.0.min.js"></script>
+    <script src="scripts/aws-cognito-sdk.min.js"></script>
+    <script src="scripts/amazon-cognito-identity.min.js"></script>
+    <script src="scripts/requestService.js?v=7" type="module"></script>
+    <script src="scripts/default.js" type="module"></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="bluebg">
+
+            <img src="images/quick-logo.jpg" alt="Quick Oil Change & Repair">
+        </div>
+
+        <section>
+            <nav id="nav" class="notloggedin"><a href="index.html">Home</a><a href="request-service.html">Request Service</a><a href="login.html">Login</a></nav>
+            <h1>
+                Quick Oil Change &amp; Repair
+            </h1>
+            <div id="message"></div>
+            <form class="formgrid">
+                <label for="phone">Phone Number</label><input id="phone" name="phone" type="text">
+                <label for="license_plate">License Plate</label><input id="license_plate" name="license_plate" type="text">
+                <label for="service">Requested Service</label><textarea id="service" name="service"></textarea>
+                <input class="btn" type="submit" value="Request Service">
+            </form>
+
+            <div id="requests"><img class="loading" src="images/loading2x.gif" alt="Loading"> Loading Service Requests <img class="loading" src="images/loading2x.gif" alt="Loading"></div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston webpage for week 6 in WDD 230.">
+    <title>WDD 230 Week 6  Responsive Preston Town Page</title>
+    
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+</head>
+<body>
+    <div id="prestonPancakes">
+        <p>Saturday = Preston Pancakes in the Park!
+        <br>9:00 a.m. Saturday at the city park pavilion.</p> 
+    </div>
+    <header>
+            <img src="sitelogo.png" alt="weather logo">
+            <section class="headings">
+                <h1>Idaho Met Service</h1>
+                <div class="moto">Serving you every season</div>
+            </section>        
+    </header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="https://alishieka.github.io/lesson9/index.html">Home</a></li>
+            <li class="active"><a href="https://alishieka.github.io/lesson-6/preston-6.html">Preston</a></li>
+            <li><a href="https://alishieka.github.io/lesson9/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://alishieka.github.io/lesson9/fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://alishieka.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://alishieka.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div id="heroArea">
+            <picture>
+                <source media="(min-width:1000px)" srcset="heropic.jpg">
+                    <source media="(min-width:600px)" srcset="heropicmed.jpg">
+            <source media="(min-width:300px)" srcset="heropicsmall.jpg">
+           
+            <img src="heropicsmall.jpg" alt="landscape image">          </picture>
+           
+            <section id="weatherSummary">
+                <h3><u>Weather Summary</u></h3>
+                <label>Currently:</label> <p>Sunny</p>
+                <label>Temperature:</label> <p><span id="temperature">30</span>&deg;F</p>
+                <label>Wind Chill:</label><p><span id="windChill"></span></p>
+                <label>Humidity:</label> <p>69%</p>
+                <label>Wind Speed:</label> <p><span id="windSpeed">12</span> mph</p>
+            </section>
+        </div>
+        <div id="forcastArea">
+            <h3>5 Day Forecast</h3>
+            <div id="forcastFive">
+                <div class="forcastCol">
+                    <p class="forcastDay">Wed</p>
+                    <img src="sunsymbol.png" alt="picture of a sun">
+                    <p class="forcastTemp">89&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay">Thur</p>
+                    <img src="sunsymbol.png" alt="picture of a sun">
+                    <p class="forcastTemp">87&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay">Fri</p>
+                    <img src="sunsymbol.png" alt="picture of a sun">
+                    <p class="forcastTemp">78&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay">Sat</p>
+                    <img src="sunsymbol.png" alt="picture of a sun">
+                    <p class="forcastTemp">75&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay">Sun</p>
+                    <img src="sunsymbol.png" alt="picture of a sun">
+                    <p class="forcastTemp">72&deg;F</p>
+                </div>
+            </div>
+        </div>
+        <div id="articleArea">
+            <h3>Title of Article</h3>
+            <figure class="articleImg">
+                <img src="fall.jpg" alt="article picture">
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reiciendis accusamus, obcaecati corporis itaque fuga mollitia unde perspiciatis. Ipsum quo suscipit consequatur esse facere a perspiciatis recusandae veniam porro architecto!</p>
+            
+        </div>
+    </main>
+    <footer>
+        <div id="contactArea">
+            <img id="mapImg" src="prestonminimap.jpg" alt="preston map">
+            <section id="contactTextArea">
+                <h3>Contact Information</h3>
+                <p>30 N 1st E<br>Preston, ID 83263</p>
+                <p>☎ 999.999.9999<br>✉ contact@idahometservices.us</p>
+                <div>
+                    <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="facebook.png" alt="facebook icon">&ensp;</a>
+                    <a href="https://pintrest.com/" target="_blank"><img class="socialIcon" src="pintrest.png" alt="pintrest icon">&ensp;</a>
+                    <a href="https://twitter.com/" target="_blank"><img class="socialIcon" src="twitter.png" alt="twitter icon"></a>
+                </div>
+            </section>
+        </div>   
+        <div id="footerBar">
+            <p>&copy;Idaho Met Service | Attributions | Shiekahadd Ali 
+            <br><span id="output"></span></p>
+        </div> 
+    </footer>
+    <script src="script.js"></script>
+    <script src="windchill.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>

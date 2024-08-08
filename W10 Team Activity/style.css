@@ -1,0 +1,23 @@
+
+
+
+#fiveDay {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#today {
+    max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid gray;
+    background-color: lightgreen;
+    margin-bottom: 2%;
+}
+
+
+.day {
+    border: 2px solid gray;
+    background-color: lightgreen;
+    text-align: center;
+}

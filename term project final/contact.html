@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Contact">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <title>
+            Contact 
+        </title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo-title-div">
+                <div>
+
+                    <a href="index.html"><img src="images/templelogo.png" alt="site logo" class="site-logo"></a>
+
+                </div>
+
+                <div class="title-heading-div">
+
+                    <h1>Temple Inn & Suites</h1>
+                    <h2 class="tagline">Come to the temple</h2>
+
+                </div>
+            </div>
+
+
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+
+                <li>
+
+                    <a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a>
+                    
+                </li>
+        
+                <li>
+
+                    <a href="index.html">Home</a>
+
+                </li>
+
+                <li>
+
+                    <a href="temples.html">Temples</a>
+
+                </li>
+
+                <li>
+
+                    <a href="reservations.html">Reservations</a>
+
+                </li>
+
+                <li>
+
+                    <a href="services.html">Services</a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html" class="current-page">Contact</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <main>
+
+            <div class="contact-main-div">
+                                    
+                <h2>About Us</h2>
+
+                <hr>
+
+                <div class="contact-map-flex-div">
+
+                    <div class="contact2-information-div">
+        
+                        <p>Our hotel was founded in 2007 in Bethesda, Maryland. We started with one hotel serving patrons of the Washington, D.C. Temple. Since then, we have expanded to 4 different locations across the United States of America. In maintaining an atmosphere of reverence and peace for all who stay at our hotels, we are committed to giving quality lodgings for temple patrons. Our main headquarters is located in Bethesda, which is less than ten minutes from the Washington, D.C. Temple.</p>
+        
+                        <p>Booking agents are available to speak you 24/7 every week. Our agents are eager to help answer any questions concerning amenities, pricing, and long-term accommodations. We look forward to feedback regarding the quality of our hotels. If you have any issues during your stay, please do not hesitate to reach out.</p>            
+
+                        <div><strong><img src="images/phone.png" alt="Telephone icon">&nbsp;&nbsp;Phone:</strong> <a href="tel:301-215-8340">301-215-8340</a></div>
+
+                        <address><strong><img src="images/location.png" alt="Location icon">&nbsp;&nbsp;Address:</strong> 4800 Montgomery Ln #300, Bethesda, MD 20814</address>
+
+                        <div class="contact-email-div"><strong><img src="images/envelope.png" alt="Envelope icon">&nbsp;&nbsp;Email:</strong> <a href="mailto:temples@templeinnandsuites.us">temples@templeinnandsuites.us</a></div>
+
+                    </div>
+
+                    <div class="contact-map-div">
+
+                        <iframe title="Map of our corporate office location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370329947!2d-77.0977258483213!3d38.98325594938187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575511895627!5m2!1sen!2sus" style="border:0;" allowfullscreen=""></iframe>
+
+                    </div>
+
+                </div>
+
+                <h2 class="contact-form-heading">Contact Us</h2>
+
+                <hr class="contact-form-hr">
+
+                <form class="reservation-form" method="GET" action="thanks.html">
+    
+                        <fieldset class="reservation-form-fieldset">
+    
+                            <legend class="reservation-form-class">Contact Information</legend>
+    
+                            <div class="reservation-form-input-div">
+    
+                                <label for="guest-full-name">*Name:</label>
+    
+                                <input pattern="[a-zA-Z ]{5,}" type="text" id="guest-full-name" name="guest-full-name" class="input-required" required>
+    
+                            </div>
+    
+                            <div class="reservation-form-input-div">
+                            
+                                <label for="guest-email">Email:</label>
+    
+                                <input type="email" id="guest-email" name="guest-email">
+    
+                            </div>
+    
+                            <div class="reservation-form-input-div">
+    
+                                <label for="guest-phone">*Phone Number:</label>
+    
+                                <input type="tel" id="guest-phone" name="guest-phone" class="input-required" required>
+    
+                            </div>
+    
+                        </fieldset>
+    
+                        <fieldset class="reservation-form-fieldset">
+    
+                            <legend class="reservation-form-class">Feedback</legend>
+    
+                            <div class="reservation-form-input-div">
+    
+                                <div>
+    
+                                    <label for="contact-message">*How Can We Assist You?</label>
+                                
+                                </div>      
+                                
+                                <br>
+    
+                                <div>
+    
+                                    <textarea rows="4" cols="38" id="contact-message" name="contact-message" required></textarea>
+    
+                                </div>
+    
+                            </div>
+                        
+                        </fieldset>
+    
+                        <input type="submit" value="Send" id="submit-button">
+    
+                    </form>
+
+            </div>
+
+        </main>
+
+
+
+        <footer>
+
+
+            <div id="footerBar">
+                <p>&copy;2021 Temple Inn & Suites | <a href="https://openweathermap.org/">Weather Map</a> | Shiekahadd Ali 
+                <br><span id="output"></span></p>
+            </div> 
+
+            <div class="social-media-icon-div">
+                <a href="https://www.facebook.com/ChurchOfJesusChrist/" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+
+                <a href="https://www.pinterest.com/ldschurch/" target="_blank"><img src="images/pinterest.png" alt="Pinterest" /></a>
+
+                <a href="https://twitter.com/ldschurch?lang=en" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a>
+
+                <a href="https://www.youtube.com/channel/UCdNjexbIS_NKJC4ZRwKf9ag" target="_blank"><img src="images/youtube.png" alt="YouTube" /></a>
+            </div>
+
+
+        </footer>
+
+
+
+
+
+
+        <script src="js/togglemenu.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="footer.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Alice',
+                        'Quicksand'
+                    ]
+                }
+            });
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,101 @@
+@media only screen and (min-width: 40em) {
+   
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3, legend {
+        font-size: 20px;
+    }
+    p, label {
+        font-size: 16px;
+    }
+  
+    header img {
+        width: 128px;
+    }
+    .headings h1 {
+        font-size: 40px;
+    }
+    .moto {
+        font-size: 22px;
+    }
+   
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+        flex: 1 1 auto;
+		display: block;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    .navigation a {
+        font-size: 18px;
+    }
+    nav ul {
+        flex-flow: row wrap;
+    }
+   
+    footer p {
+        font-size: 20px;
+    }
+  
+    #weatherSummary {
+        display: grid;
+    }
+   
+    #forcastArea {
+        display: block;
+    }
+   
+    .articleImg {
+        margin: 0 0 15px 15px;
+        width: 50%;
+        float: right;
+    }    
+  
+    #mapImg {
+        display: block;
+    }
+    #contactTextArea {
+        grid-column: 2 / 3;	
+    }
+    
+    #weatherGallery {
+        grid-template-columns: 1fr 1fr;	
+    }
+    
+
+    #stormCenterPage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;	
+        grid-gap: 20px;
+    }
+    .reportStormImg {
+        display: inline;
+        margin: 10px;
+    }
+    .reportStormImg img {
+        max-width: 100%;
+        max-height: 1008px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px #000000;
+    }
+    
+    #allTownInfo article {
+        flex-direction: row;
+    }
+    #allTownInfo article:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    #allTownInfo div {
+        width: 50%;
+    }
+    .townInfoImg {
+        width: 50%;
+    }
+}

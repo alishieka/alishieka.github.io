@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temples">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="temple1.css">
+    <link rel="stylesheet" href="temple2.css">
+    <link rel="stylesheet" href="large2.css">
+    <link rel="stylesheet" href="medium2.css">
+   
+
+    <script src="home.js" defer></script>
+    <script src="temples.js" defer></script>
+    <title>Temples</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+
+            <div class="logo-title-div">
+                <div>
+
+                    <a href="index.html"><img src="images/templelogo.png" alt="Temple Inn & Suites Logo" class="site-logo"></a>
+
+                </div>
+
+                <div class="title-heading-div">
+
+                    <h1>Temple Inn & Suites</h1>
+                    <h2 class="tagline">Come to the temple</h2>
+
+                </div>
+            </div>
+
+
+
+        </header>
+    
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li>
+
+                <a href="temples.html" class="current-page">Temples</a>
+
+            </li>
+         
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+
+       
+    <h1>Temples</h1>
+        <div class="cards">
+        </div>
+        <h1>Weather Summary</h1>
+        <div class="idsummary">
+            
+            
+            <h3>Rexburg</h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>Sky</th>
+                    <th>Air Temp.</th>
+                    <th>Wind Chill</th>
+                    <th>Humid.</th>
+                    <th>Wind Speed</th>
+                </tr>
+                <tr>
+                    <td><span id="rexburg"></span></td>
+                    <td><span id="temp2"></span>°F</td>
+                    <td><span id="rexburgwind"><span id="wind2"></span>°F</span></td>
+                    <td><span id="rexburghum"><span id="hum2"></span>%</span></td>
+                    <td><span id="rexburgws"><span id="ws2"></span> mph</span></td>
+                </tr>
+                </tbody>
+            </table>
+            <h3>Kansas City</h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>Sky</th>
+                    <th>Air Temp.</th>
+                    <th>Wind Chill</th>
+                    <th>Humid.</th>
+                    <th>Wind Speed</th>
+                </tr>
+                <tr>
+                    <td><span id="kansas3"></span></td>
+                    <td><span id="kansastemp3"></span>°F</td>
+                    <td><span id="kansaswind3"><span id="wind3"></span>°F</span></td>
+                    <td><span id="kansashum3"><span id="hum3"></span>%</span></td>
+                    <td><span id="kansasws3"><span id="ws3"></span> mph</span></td>
+                </tr>
+                </tbody>
+            </table>
+            <h3>Idaho Falls</h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>Sky</th>
+                    <th>Air Temp.</th>
+                    <th>Wind Chill</th>
+                    <th>Humid.</th>
+                    <th>Wind Speed</th>
+                </tr>
+                <tr>
+                    <td><span id="idahofalls"></span></td>
+                    <td><span id="temp"></span>°F</td>
+                    <td><span id="idahofallswind"><span id="wind"></span>°F</span></td>
+                    <td><span id="idahofallshum"><span id="hum"></span>%</span></td>
+                    <td><span id="idahofallsws"><span id="ws"></span> mph</span></td>
+                </tr>
+                </tbody>
+            </table>
+            <h3>Oklahoma City</h3>
+            <table>
+                <tbody>
+                <tr>
+                    <th>Sky</th>
+                    <th>Air Temp.</th>
+                    <th>Wind Chill</th>
+                    <th>Humid.</th>
+                    <th>Wind Speed</th>
+                </tr>
+                <tr>
+                    <td><span id="oklahomacity"></span></td>
+                    <td><span id="temp4"></span>°F</td>
+                    <td><span id="oklahomacitywind"><span id="wind4"></span>°F</span></td>
+                    <td><span id="oklahomacityhum"><span id="hum4"></span>%</span></td>
+                    <td><span id="oklahomacityws"><span id="ws4"></span> mph</span></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <div id="footerBar">
+        <p>&copy;2021 Temple Inn & Suites | <a  href="https://openweathermap.org/">Weather Map</a> | Shiekahadd Ali 
+        <br><span id="output"></span></p>
+    </div> 
+    
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="footer.js"></script>
+
+<script>
+    WebFont.load({
+        google: {
+            families: [
+                'Alice',
+                'Quicksand'
+            ]
+        }
+    });
+</script>
+</body>
+</html>

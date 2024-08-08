@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+}
+main {
+	max-width: 80em;
+	margin: 0 auto;
+	padding: 10px;
+}
+header, nav, footer, #prestonPancakes {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 20px;
+	color: #153e5c;
+}
+h2 {
+	font-size: 16px;
+	color: #153e5c;
+}
+h3 {
+	font-size: 14px;
+	color: #153e5c;
+}
+p, label {
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color: #153e5c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header img {
+	width: 80px;
+	height:	auto;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.headings h1 {
+	font-size: 20px;
+	color: #ffffff;
+	margin: 0;
+}
+.moto {
+	color: #f2be54;
+	font-style: italic;
+	font-size: 12px;
+}
+
+nav {
+	background-color: #f2be54;
+}
+.navigation {
+	max-width: 80em;
+	list-style: none;
+	background-color: #f2be54;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	font-size: 16px;	
+	color: #000000;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.responsive li {
+	display: block;
+}
+nav a:hover {
+	background-color: #153e5c;
+	color: #ffffff;
+}
+.active {
+	background-color: #cacfd4;
+	border-left: 4px solid #153e5c;
+	border-right: 4px solid #153e5c;
+}
+
+#footerBar {
+	background-color: #153e5c;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+footer p {
+	font-size: 14px;
+}
+
+#heroArea {
+	position: relative;
+}
+#heroArea img {
+	width: 100%;
+	height:	auto;
+}
+#weatherSummary {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	padding: 10px;
+	background: #cacfd4;
+	border: 2px solid #000000;
+	box-shadow: 0 0 20px #000000;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+#weatherSummary h3 {
+	grid-column: 1 / 3;	
+	margin: 0;
+}
+#weatherSummary p, #weatherSummary label {
+	margin: 0;
+	padding: 2px;
+}
+#weatherSummary label {
+	text-align: right;
+	font-weight: bold;
+}
+
+#forcastArea {
+	display: block;
+}
+#forcastFive {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	border: 1px solid #000000;
+}
+.forcastCol {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #000000;
+}
+.forcastDay {
+	margin: 0;
+	color: #ffffff;
+	background: #153e5c;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	font-weight: bold;
+}
+.forcastCol img {
+	padding-top: 10px;
+	width: 70%;
+	height:	auto;
+}
+.forcastTemp {
+	color: #153e5c;
+	font-weight: bold;
+}	
+
+#articleArea {
+	border: 2px solid #000000;
+	background: #cacfd4;
+	margin-top: 10px;
+	padding: 15px;
+	overflow: auto;
+}
+#articleArea h3 {
+	margin-top: 10px;
+}
+#articleArea img {
+	max-width: 532px;
+	width: 100%;
+	height:	auto;
+	display: block;
+	box-shadow: 0 0 20px #000000;
+}	
+
+#contactArea {
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+	background-color: #f2be54;
+	padding: 15px;
+	grid-gap: 75px;
+	align-items: center;
+}
+#mapImg {
+	display: none;
+	height:	auto;
+	justify-self: end;
+	width: 100%;
+	max-width: 488px;
+}
+#contactTextArea {
+	display: flex;
+	flex-direction: column;
+}
+#contactTextArea p {
+	margin: 0;
+	padding-bottom: 15px;
+}
+#contactTextArea h3 {
+	grid-column: 1 / 3;	
+	margin-top: 0;
+}
+.socialIcon{
+	width: 20px;
+	height:	auto;
+}
+
+#prestonPancakes {
+	display: none;
+	background: #f2be54;
+	padding: 15px;
+	text-align: center;
+}
+#prestonPancakes p {
+	margin: 0;
+}

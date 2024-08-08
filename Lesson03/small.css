@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+}
+header, footer, main, nav {
+	max-width: 80em;
+	margin: 0 auto;
+}
+header, footer {
+	background-color: #153e5c;
+	color: #ffffff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+main {
+	padding: 15px;
+}
+section p, section img {
+	padding-left: 15px;
+} 
+img {
+	max-width: 100%;
+	height:	auto;
+}
+li {
+	list-style-type: none;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 16px;
+}
+h4 {
+	text-decoration: underline;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+}
+footer p a {
+	color: #ffffff;
+}
+footer p a:hover {
+	color:  #87aeb4;
+}
+
+.backgroundWhite {
+	background-color: #ffffff;
+}
+.backgroundYellow {
+	background-color: #f2be54;
+}
+.backgroundGrey {
+	background-color: #cacfd4;
+}
+.backgroundDarkBlue {
+	background-color: #153e5c;
+}
+.backgroundBlack {
+	background-color: #000000;
+}
+
+.textWhite {
+	color: #ffffff;
+}
+.textYellow {
+	color: #f2be54;
+}
+.textGrey {
+	color: #cacfd4;
+}
+.textDarkBlue {
+	color: #153e5c;
+}
+.textBlack {
+	color: #000000;
+}
+
+.size16 {
+	font-size: 16px;
+}
+.size20 {
+	font-size: 20px;
+}
+.size25 {
+	font-size: 25px;
+}
+.size30 {
+	font-size: 30px;
+}
+.size40 {
+	font-size: 40px;
+}
+
+#colorTable {
+	border-collapse: collapse;
+	margin: 15px;
+}
+#colorTable tr {
+	height: 300px;
+}
+#colorTable tr td {
+	text-align: center;
+	vertical-align: bottom;
+	width: 250px;
+	padding: 15px;
+}
+#colorTable tr td:nth-child(1), 
+#colorTable tr td:nth-child(5) {
+	display: none;
+}
+
+#typographyTable {
+	border-collapse: collapse;
+	margin: 15px;
+	font-size: 10px;
+}
+#typographyTable tr td, #typographyTable tr th {
+	border:1px solid #000000;
+	padding: 5px;
+	width: 250px;
+}
+#typographyTable tr td:nth-child(2), 
+#typographyTable tr th:nth-child(2),
+#typographyTable tr td:nth-child(4), 
+#typographyTable tr th:nth-child(4),
+#typographyTable tr td:nth-child(5), 
+#typographyTable tr th:nth-child(5) {
+	display: none;
+}
+
+nav {
+	background-color: #f2be54;	
+	text-align: center;
+}
+nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	flex-direction: column;
+}
+nav ul li {
+	padding: 15px;
+	flex: 1 1 auto; 
+}
+nav ul li a {
+	padding: 15px;
+	font-size: 16px;
+	color: #000000;
+}
+nav a:hover {
+	color: #ffffff;
+}
+.active {
+	background-color: #cacfd4;
+	height: 23px;
+}
+.active a:hover {
+	color: #000000;
+}

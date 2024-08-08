@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Preston website page of week 10 in WDD 230.">
+    <title>Idaho Met Service</title>
+    <link rel="shortcut icon" href="sitelogo.png">
+   
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+</head>
+<body>
+    <div id="prestonPancakes">
+        <p>Saturday = Preston Pancakes in the Park!
+        <br>9:00 a.m. Saturday at the city park pavilion.</p> 
+    </div>
+    <header>
+            <img src="sitelogo.png" alt="site logo">
+            <section class="headings">
+                <h1>Idaho Met Service</h1>
+                <div class="moto">Serving you every season</div>
+            </section>        
+    </header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="https://alishieka.github.io/lesson9/index.html">Home</a></li>
+            <li class="active"><a href="https://alishieka.github.io/lesson-10/preston-10.html">Preston</a></li>
+            <li><a href="https://alishieka.github.io/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://alishieka.github.io/lesson11-fishhaven/fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://alishieka.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://alishieka.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div id="heroArea">
+            <picture>
+                <source media="(min-width:1000px)" srcset="large.jpg">
+                    <source media="(min-width:600px)" srcset="medium.jpg">
+            <source media="(min-width:300px)" srcset="small.jpg">
+           
+            <img src="small.jpg" alt="preston image">          </picture>
+
+           
+            <section id="weatherSummary">
+                <h3><u>Weather Summary</u></h3>
+                <label>Currently:</label> <p><span id="desPreston"></span></p>
+                <label>Temperature:</label> <p><span id="temperaturePreston"></span>&deg;F</p>
+                <label>Wind Chill:</label><p><span id="windChill"></span></p>
+                <label>Humidity:</label> <p><span id="humidityPreston"></span>%</p>
+                <label>Wind Speed:</label> <p><span id="windSpeedPreston"></span> mph</p>
+            </section>
+        </div>
+        <div id="forcastArea">
+            <h3>5 Day Forecast</h3>
+            <span id="testone"></span>
+            <div id="forcastFive">
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek1"></span></p>
+                    <img id="icon1" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast1"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek2"></span></p>
+                    <img id="icon2" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast2"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek3"></span></p>
+                    <img id="icon3" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast3"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek4"></span></p>
+                    <img id="icon4" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast4"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek5"></span></p>
+                    <img id="icon5" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast5"></span>&deg;F</p>
+                </div>
+            </div>
+        </div>
+        <div id="articleArea">
+            <h3>Festival of Lights</h3>
+            <figure class="articleImg">
+                <img src="festival.jpg" alt="picture of article" loading="lazy">
+            </figure>
+            <p>Preston, Idaho, is a little agricultural community in the northern area of Cache Valley. In the early times, Indians, who camped nearby, used it as a place to hunt. The first men to visit the region were immigrants, trappers, and explorers. Latter-day saint pioneers founded a community in that area and named it Worm Creek and was changed to Preston to honor William B. Preston. </p>
+            <p>Every year Preston celebrates the Idaho Festival of Lights which begins the day after Thanksgiving and goes until December 31. The festival was created by 2 local businessmen along with several other community organizations to assist in celebrating Christmas within the community. The festival has displays in the city park, a lighted parade, and fireworks. During the festival, the sellers along the main street of Preston have the front of their stores decorated with Christmas lights. </p>
+        </div>
+    </main>
+    <footer>
+        <div id="contactArea">
+            <img id="mapImg" src="prestonmap.png" alt="preston map" loading="lazy">
+            <section id="contactTextArea">
+                <h3>Contact Information</h3>
+                <p>30 N 1st E<br>Preston, ID 83263</p>
+                <p>☎ 208.625.2640<br>✉ contact@idahometservices.us</p>
+                <div>
+                    <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="facebook.png" alt="facebook" loading="lazy">&ensp;</a>
+                    <a href="https://pintrest.com/" target="_blank"><img class="socialIcon" src="pintrest.png" alt="pintrest" loading="lazy">&ensp;</a>
+                    <a href="https://twitter.com/" target="_blank"><img class="socialIcon" src="twitter.png" alt="twitter" loading="lazy"></a>
+                </div>
+            </section>
+        </div>   
+        <div id="footerBar">
+            <p>&copy;Idaho Met Service | <a href="https://openweathermap.org/">Open Weather Map</a> | Shiekahadd Ali 
+            <br><span id="output"></span></p>
+        </div> 
+    </footer>
+    <script src="preston.js"></script>
+    <script src="api.js"></script>
+    <script src="forecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>

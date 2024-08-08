@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Homepage">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <title>
+            Homepage 
+        </title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo-title-div">
+                <div>
+
+                    <a href="index.html"><img src="images/templelogo.png" alt="site Logo" class="site-logo"></a>
+
+                </div>
+
+                <div class="title-heading-div">
+
+                    <h1>Temple Inn & Suites</h1>
+                    <h2 class="tagline">Come to the temple</h2>
+
+                </div>
+            </div>
+
+
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+
+                <li>
+
+                    <a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a>
+
+                </li>
+
+                <li>
+
+                    <a href="index.html" class="current-page">Home</a>
+
+                </li>
+
+                <li>
+
+                    <a href="temples.html">Temples</a>
+
+                </li>
+
+                <li>
+
+                    <a href="reservations.html">Reservations</a>
+
+                </li>
+
+                <li>
+
+                    <a href="services.html">Services</a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html">Contact</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <main>
+
+            <div class="banner-floating-text-container">
+                <picture>
+
+                <source media="(min-width:1100px)" srcset="wide.jpg">
+                <source media="(min-width:790px)" srcset="large.jpg">
+                    <source media="(min-width:650px)" srcset="medium.jpg">
+            <source media="(min-width:456px)" srcset="small.jpg">
+           
+            <img src="small.jpg" alt="temple inn image">          </picture> 
+
+                <a href="reservations.html" target="_blank" class="centered-floating-text"><div>Make your reservation</div></a>
+
+            </div>
+
+            <div class="body-content-div">
+
+                <div class="about-text-div">
+
+                    <h2>Welcome</h2>
+
+                    <hr>
+
+                    <p>
+                        Temple Inn & Suites has amenities and services made available to temple patrons, temple workers, and their families. We provide unique services to meet the needs of temple patrons, and for those who participate in events like youth trips, weddings, marriage sealings, and receptions. Our hotels reflect the culture of the church, give accessibility and comfort, and support a temple-oriented theme.
+                    </p>
+
+                </div>
+
+                <div class="temple-summary-div">
+
+                    <div class="temple-summary-photo-div">
+
+                        <picture>
+                            <source media="(min-width: 500px)" srcset="youthpicmed.jpg">  
+                            <source media="(min-width: 456px)" srcset="youthpicsmall.jpg">
+                            <img src="youthpicmed.jpg" alt="Youth At Temple">
+                        </picture>
+
+                    </div>
+
+                    <div class="temple-summary-text-div">
+
+                        <h2>Featured Activity</h2>
+
+                        <p>Did you know that the Youth of the Church can now be in charge of certain ordinances
+                            at the temple under the direction of the temple Presidency?
+                            It is a wonderful opportunity for the Youth to help out.
+                            <a  href="https://www.lds.org/church/news/church-adds-new-opportunities-for-youth-and-children-to-prepare-for-and-participate-in-temples?lang=eng" target="_blank">Continue reading</a> </p>
+                    </div>
+
+                </div>
+
+                <div class="contact-information-div">
+
+                    <div class="home-page-contact-text-div">
+
+                        <h2 class="remove-top-margin-h2">Contact Information</h2>
+
+                        <hr>
+
+                        <br>
+
+                        <span class="contact-span">
+
+                            <strong><img src="images/phone.png" alt="Telephone icon">&nbsp;&nbsp;Phone:</strong> <a href="tel:301-215-8340">301-215-8340</a>
+
+                            <br>
+
+                            <strong><img src="images/location.png" alt="Location icon">&nbsp;&nbsp;Address:</strong> 4800 Montgomery Ln #300, Bethesda, MD 20814
+
+                            <br>
+
+                            <strong><img src="images/envelope.png" alt="Envelope icon">&nbsp;&nbsp;Email:</strong> <a href="mailto:temples@templeinnandsuites.us">temples@templeinnandsuites.us</a>
+
+                        </span>
+                    
+                    </div>
+
+                    <div>
+
+                        <iframe title="Map of our corporate office location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370329947!2d-77.0977258483213!3d38.98325594938187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575511895627!5m2!1sen!2sus" style="border:0;" allowfullscreen=""></iframe>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </main>
+
+
+
+        <footer>
+
+
+            <div id="footerBar">
+                <p>&copy;2021 Temple Inn & Suites | <a href="https://openweathermap.org/">Weather Map</a> | Shiekahadd Ali 
+                <br><span id="output"></span></p>
+            </div> 
+
+            <div class="social-media-icon-div">
+                <a href="https://www.facebook.com/ChurchOfJesusChrist/" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+
+                <a href="https://www.pinterest.com/ldschurch/" target="_blank"><img src="images/pinterest.png" alt="Pinterest" /></a>
+
+                <a href="https://twitter.com/ldschurch?lang=en" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a>
+
+                <a href="https://www.youtube.com/channel/UCdNjexbIS_NKJC4ZRwKf9ag" target="_blank"><img src="images/youtube.png" alt="YouTube" /></a>
+            </div>
+
+        </footer>
+
+
+
+
+
+        <script src="js/togglemenu.js"></script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="footer.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Alice',
+                        'Quicksand'
+                    ]
+                }
+            });
+        </script>
+
+    </body>
+
+</html>

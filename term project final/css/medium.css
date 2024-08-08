@@ -1,0 +1,330 @@
+@media (min-width: 768px)
+{
+
+    .body-content-div {
+
+        max-width: 992px;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+    nav ul {
+        
+        flex-direction: row;
+
+        max-width: 992px;
+
+        margin-left: auto;
+
+        margin-right: auto;
+    
+    }
+
+    .navigation li {
+
+        display: block; 
+
+    }
+
+    .navigation li:first-child {
+
+        display: none; 
+
+    }
+
+    nav a {
+
+        padding-left: 0; 
+
+        padding-right: 0;
+
+        width: 100%;
+
+    }
+
+    .temple-summary-div {
+
+        display: flex;
+    
+        flex-direction: row;
+    
+    }
+    
+    .temple-summary-div div {
+    
+        width: 50%;
+    
+    }
+
+    .temple-summary-photo-div img {
+    
+        margin-bottom: 0px;
+    
+    }
+
+    .contact-information-div {
+
+        margin-top: 50px;
+    
+        padding-bottom: 50px;
+    
+        flex-direction: row;
+    
+    }    
+    
+    .contact-information-div div {
+    
+        width: 50%;
+    
+    }
+
+    .banner-image {
+
+        display: block;
+
+        width: 100%;
+    
+    }
+
+    .centered-floating-text {
+
+        position: absolute;
+
+        margin-top: 0px;
+    
+        top: 50%;
+    
+        left: 50%;
+    
+        transform: translate(-50%, -50%);
+    
+        background-color: rgba(83, 74, 60, .8);
+
+        padding: 10px;
+    
+    }
+
+    .centered-floating-text div {
+
+        background-color: rgba(83, 74, 60, 0);
+
+        background-color: transparent;
+    
+        padding-top: 0px;
+    
+        padding-bottom: 0px;
+
+        margin-top: 0px;
+    
+    }
+
+    .single-temple-info-container-div:nth-child(even) {
+    
+        flex-direction: row-reverse;
+    
+    }
+    
+    .single-temple-info-container-div:nth-child(odd) {
+    
+        flex-direction: row;
+    
+    }
+
+    .single-temple-info-image-div {
+
+        width: 50%;
+    
+    }
+    
+    .single-temple-info-text-div {
+
+        padding-top: 3%;
+
+        font-size: .9em;
+    
+        width: 50%;
+    
+        text-align: center;
+    
+    }
+    
+    .single-temple-info-container-div {
+    
+        margin-bottom: 60px;
+    
+    }
+
+    .single-temple-info-text-div {
+    
+        border-bottom: 3px solid #FFFFFF;
+    
+    }
+
+    .single-temple-info-image-div {
+    
+        margin-bottom: 0px;
+    
+    }
+
+    .services-flex-div:nth-of-type(odd) {
+
+        flex-direction: row;
+    
+    }
+
+    .services-flex-div:nth-of-type(even) {
+
+        flex-direction: row-reverse;
+    
+    }
+
+    .services-flex-text-div {
+
+        width: 50%;
+    
+    }
+    
+    .services-flex-image-div {
+    
+        width: 50%;
+    
+    }
+
+    .services-flex-text-div {
+    
+        border-bottom: 3px solid #FFFFFF;
+    
+    }
+
+    .contact-map-flex-div {
+    
+        flex-direction: row;
+    
+    }
+
+    .contact2-information-div {
+
+        width: 50%;
+    
+    }
+
+    .contact-map-div {
+    
+        width: 50%;
+    
+    }
+
+    .thanks-body-div {
+    
+        margin-top: 300px;
+    
+        margin-bottom: 300px;
+    
+    }
+
+    .about-text-div {
+
+        padding-left: 0px;
+        
+        padding-right: 0px;
+    
+    }
+    
+    .contact-information-div {
+    
+        padding-left: 0px;
+        
+        padding-right: 0px;
+    
+    }
+
+    .temple-page-title {
+
+        padding-left: 0px;
+    
+    }
+
+    .service-body-text h2, .service-body-text hr {
+
+        margin-left: 0px;
+    
+    }
+
+    .reservation-body-text h2, .reservation-body-text hr, .reservation-body-text p {
+
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+    }
+
+    .contact-main-div h2, .contact-main-div hr {
+
+        margin-left: 0px;
+
+        margin-right: 0px;
+
+    }
+
+    .contact2-information-div {
+    
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+    }
+
+    .home-page-contact-text-div {
+
+        margin-bottom: 0px;
+    
+    }
+
+    .reservation-form-input-div {
+
+        flex-direction: row;
+    
+        justify-content: space-between;
+    
+    }
+
+    .temple-quote {
+
+        font-size: 2em;
+    
+    }
+    
+    .temple-quote-div {
+    
+        padding-left: 0px;
+    
+        padding-right: 0px;
+    
+    }
+
+    .reservation-quote {
+
+        font-size: 2em;
+    
+    }
+    
+    .reservation-quote-div {
+    
+        max-width: 500px;
+    
+        margin-left: auto;
+    
+        margin-right: auto;
+    
+        margin-bottom: 60px;
+    
+        padding-left: 0px;
+    
+        padding-right: 0px;
+    
+    }
+    
+}

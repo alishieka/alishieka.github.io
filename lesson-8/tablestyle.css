@@ -1,0 +1,63 @@
+body {
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+table {
+    width: 400px;
+    text-align: center;
+    margin-top: 2em;
+    box-shadow: 10px 10px 10px #628ca6;
+}
+
+thead {
+    
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+thead tr th {
+    background-color: #7fb9c2;
+    color: black;
+}
+
+td,
+th {
+    padding: .3em;
+}
+
+th {
+    color: white;
+    background-color: #628ca6;
+}
+
+table,
+th,
+td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+tfoot tr {
+    font-size: .75em;
+    background-color: #7fb9c2;
+}
+
+.highlight {
+    background-color: #628ca6;
+    color: white;
+}
+
+tr:nth-of-type(6) td:first-child {
+    font-style: italic;
+}

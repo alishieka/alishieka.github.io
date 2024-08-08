@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Reservation page">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+        <link rel="icon" type="image/png" href="images/favicon.png">
+
+        <title>
+            Reservations 
+        </title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo-title-div">
+                <div>
+
+                    <a href="index.html"><img src="images/templelogo.png" alt="site Logo" class="site-logo"></a> 
+
+                </div>
+
+                <div class="title-heading-div">
+
+                    <h1>Temple Inn & Suites</h1>
+                    <h2 class="tagline">Come to the temple</h2>
+
+                </div>
+            </div>
+
+
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+
+                <li>
+
+                    <a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a>
+                    
+                </li>        
+
+                <li>
+
+                    <a href="index.html">Home</a>
+
+                </li>
+
+                <li>
+
+                    <a href="temples.html">Temples</a>
+
+                </li>
+
+                <li>
+
+                    <a href="reservations.html" class="current-page">Reservations</a>
+
+                </li>
+
+                <li>
+
+                    <a href="services.html">Services</a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html">Contact</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <main>
+
+            <div class="reservation-body-text">
+
+                <h2>Online Reservations</h2>
+
+                <hr class="weird-reservation-form-spacing">
+
+                <p>We all need to be prepared. By removing concerns regarding childcare, accommodations, and lots more, we at Temple Inn & Suites allow temple patrons to be prepared for their time in the temple. We aim to promote a spirit of reverence and peace so that patrons will be in the correct mindset prior to entering the House of God. We know that by preparing yourself physically and mentally, members of The Church of Jesus Christ of Latter-day Saints will find their temple visits more enriching and inspiring. The church has <a id="temple-entry-link" href="https://www.churchofjesuschrist.org/study/manual/preparing-to-enter-the-holy-temple/preparing-to-enter-the-holy-temple?lang=eng" target="_blank">provided further aids</a> for use in preparing to enter the House of the Lord.</p>
+
+                <h2>Reserve</h2>
+
+                <hr class="weird-reservation-form-spacing">
+
+                <form class="reservation-form" method="GET" action="thanks.html">
+
+                    <fieldset class="reservation-form-fieldset">
+
+                        <legend class="reservation-form-class">Room Information</legend>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="hotel-location">*Location:</label>
+
+                            <select id="hotel-location" name="hotel-location" class="input-required" required>
+                                
+                                <option value="">Select a hotel</option>
+
+                                <option value="Gilbert">Idaho Falls</option>
+
+                                <option value="Ogden">Rexburg</option>
+
+                                <option value="Manti">Kansas City</option>
+                                
+                                <option value="San Diego">Oklahoma City</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+                            
+                            <label for="visit-start-date">Start Date:</label>
+
+                            <input type="date" id="visit-start-date" name="visit-start-date">
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="visit-end-date">End Date:</label>
+
+                            <input type="date" id="visit-end-date" name="visit-end-date">
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="number-of-rooms">*Number of Rooms:</label>
+
+                            <input type="number" min="1" max="5" id="number-of-rooms" name="number-of-rooms" class="input-required" required>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="room-type">*Type of Room:</label> 
+
+                            <select id="room-type" name="room-type" class="input-required" required>
+
+                                <option value="">Select a room</option>
+
+                                <option value="Single Bedroom - Single Bed">1 Bedroom-1 Bed</option>
+
+                                <option value="Single Bedroom - Two Beds">1 Bedroom-2 Beds</option>
+
+                                <option value="Two Bedrooms - Two Beds">2 Bedrooms-2 Beds</option>
+
+                                <option value="Two Bedrooms - Two Beds - Kitchenette">2 Bedrooms-2 Beds-Kitchenette</option>
+
+                            </select>
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="reservation-form-fieldset">
+
+                        <legend class="reservation-form-class">Guest Information</legend>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="guest-full-name">*Name:</label>
+
+                            <input pattern="[a-zA-Z ]{5,}" type="text" id="guest-full-name" name="guest-full-name" class="input-required" required>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+                        
+                            <label for="guest-email">Email:</label>
+
+                            <input type="email" id="guest-email" name="guest-email">
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="guest-phone">*Phone number:</label>
+
+                            <input type="tel" id="guest-phone" name="guest-phone" class="input-required" required>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="guest-state">Home State:</label>
+
+                            <input type="text" id="guest-state" name="guest-state">
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="reservation-form-fieldset">
+
+                        <legend class="reservation-form-class">Other</legend>
+
+                        <div class="reservation-form-input-div">
+
+                            <div>
+
+                                <label for="special-accommodations">Requests:</label>
+                            
+                            </div>      
+                            
+                            <br>
+
+                            <div>
+
+                                <textarea rows="4" cols="38" id="special-accommodations" name="special-accommodations"></textarea>
+
+                            </div>
+
+                        </div>
+                    
+                    </fieldset>
+
+                    <input type="submit" value="Send" id="submit-button">
+
+                </form>
+
+                <div class="reservation-quote-div">
+                    <p class="reservation-quote"><i>“Building and maintaining temples may not change your life, but spending your time in the temple surely will. To those who have long been absent from the temple, I encourage you to prepare and return as soon as possible. Then I invite you to worship in the temple and pray to feel deeply the Savior’s infinite love for you, that each of you may gain your own testimony that He directs this sacred and ageless work.”</i></p>
+                    <hr>
+                    <p class="reservation-quote">-President Russell M. Nelson</p>
+                </div>
+
+          </div>
+
+
+
+        </main>
+
+
+
+        <footer>
+
+
+            <div id="footerBar">
+                <p>&copy;2021 Temple Inn & Suites | <a href="https://openweathermap.org/">Weather Map</a> | Shiekahadd Ali 
+                <br><span id="output"></span></p>
+            </div> 
+
+            <div class="social-media-icon-div">
+                <a href="https://www.facebook.com/ChurchOfJesusChrist/" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a>
+
+                <a href="https://www.pinterest.com/ldschurch/" target="_blank"><img src="images/pinterest.png" alt="Pinterest" /></a>
+
+                <a href="https://twitter.com/ldschurch?lang=en" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a>
+
+                <a href="https://www.youtube.com/channel/UCdNjexbIS_NKJC4ZRwKf9ag" target="_blank"><img src="images/youtube.png" alt="YouTube" /></a>
+            </div>
+
+
+        </footer>
+
+
+
+
+
+
+        <script src="js/togglemenu.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="footer.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Alice',
+                        'Quicksand'
+                    ]
+                }
+            });
+        </script>
+
+    </body>
+
+</html>

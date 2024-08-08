@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery website for week 7 in WDD 230."> 
+    <title>Idaho Met Service</title>
+    <link rel="shortcut icon" href="sitelogo.png">
+    
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+</head>
+<body>
+    <div id="prestonPancakes">
+        <p>Saturday = Preston Pancakes in the Park!
+        <br>9:00 a.m. Saturday at the city park pavilion.</p> 
+    </div>
+    <header>
+            <img src="sitelogo.png" alt="site logo">
+            <section class="headings">
+                <h1>Idaho Met Service</h1>
+                <div class="moto">Serving you every season</div>
+            </section>        
+    </header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="https://alishieka.github.io/lesson9/index.html">Home</a></li>
+            <li><a href="https://alishieka.github.io/lesson-10/preston-10.html">Preston</a></li>
+            <li><a href="https://alishieka.github.io/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://alishieka.github.io/lesson11-fishhaven/fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://alishieka.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="https://alishieka.github.io/lesson7/gallery-7.html">Gallery</a></li>
+           
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div id="weatherGallery">
+            <div class="galleryBlock">
+               <picture>
+                    <img src="placeholderimage.jpg" data-src="sky.jpg" alt="sky image"> 
+                </picture>
+                <p>Sunshine in Preston</p>             
+            </div>
+            <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="mountain.jpg" alt="mountain image"> 
+                 </picture>
+                 <p>Snow covered mountain north of Fish Haven</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="rainbow.jpg" alt="rainbow image"> 
+                 </picture>
+                 <p>Full rainbow south of Preston</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="storm.jpg" alt="storm image"> 
+                 </picture>
+                 <p>Cold front north of Soda Springs</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="lightning.jpg" alt="lightning image"> 
+                 </picture>
+                 <p>Lightning south of Soda Springs</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="tornado.jpg" alt="tornado image"> 
+                 </picture>
+                 <p>Tornado south of Fish Haven</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="double.jpg" alt="double rainbow image"> 
+                 </picture>
+                 <p>Double rainbow east of Soda Springs</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="sun.jpg" alt="sun image"> 
+                 </picture>
+                 <p>Sunshine in Fish Haven</p>             
+             </div>
+             <div class="galleryBlock">
+                <picture>
+                     <img src="placeholderimage.jpg" data-src="snow.jpg" alt="snow image"> 
+                 </picture>
+                 <p>Fresh snow in Preston Park</p>             
+             </div>
+        </div>
+    </main>
+    <footer id="footerBar">
+        <p>&copy;Idaho Met Service | <a href="https://openweathermap.org/">Open Weather Map</a> | Shiekahadd Ali 
+        <br><span id="output"></span></p>
+    </footer>
+    <script src="preston.js"></script>
+    <script src="gallery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>

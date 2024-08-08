@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lazy Loading of Images for week 7 in WDD 230.">
+    <title>WDD 230 &bull; Week 07 &bull; Lazy Loading Images</title> 
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Images</h1>
+    </header>  
+    <main>
+        <picture>
+            <img src="placeholderimage.jpg" data-src="rain.jpg" alt="rainforest image">
+        </picture>
+        <picture>
+            <img src="placeholderimage.jpg" data-src="storm.jpg" alt="image of a storm">
+        </picture>
+        <picture>
+            <img src="placeholderimage.jpg" data-src="cloud.jpg" alt="image of a cloud">
+        </picture>
+        <picture>
+            <img src="placeholderimage.jpg" data-src="forest.jpg" alt="forest picture">
+        </picture>
+        <picture>
+            <img src="placeholderimage.jpg" data-src="leaves.jpg" alt="picture of leaves">
+        </picture>
+        <picture>
+            <img src="placeholderimage.jpg" data-src="treeroot.jpg" alt="image of a tree root"> 
+        </picture>
+    </main>
+    <footer>
+        <p><a href="https://alishieka.github.io/Assignment%20Portal/index.html">Assignment Portal</a></p>
+    </footer>
+    <script src="lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>

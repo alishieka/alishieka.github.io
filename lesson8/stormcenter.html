@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Storm center page of week 8 in WDD 230.">
+    <title>Idaho Met Service</title>
+    <link rel="shortcut icon" href="sitelogo.png">
+    
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+</head>
+<body>
+    <div id="prestonPancakes">
+        <p>Saturday = Preston Pancakes in the Park!
+        <br>9:00 a.m. Saturday at the city park pavilion.</p> 
+    </div>
+    <header>
+            <img src="sitelogo.png" alt="site logo">
+            <section class="headings">
+                <h1>Idaho Met Service</h1>
+                <div class="moto">Serving you every season</div>
+            </section>        
+    </header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="https://alishieka.github.io/lesson9/index.html">Home</a></li>
+            <li><a href="https://alishieka.github.io/lesson-10/preston-10.html">Preston</a></li>
+            <li><a href="https://alishieka.github.io/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://alishieka.github.io/lesson11-fishhaven/fishhaven.html">Fish Haven</a></li>
+            <li class="active"><a href="https://alishieka.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://alishieka.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        <div id="stormCenterPage">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="standardLabel">Full Name<input type="text" name="fullname" pattern="[\sa-zA-Z]{5,}" placeholder="John Doe" class="standardInput" required></label>
+                    <label class="standardLabel">Email<input type="email" name="email" placeholder="example@demo.com" class="standardInput"></label>
+                    <label class="standardLabel">Phone Number<input type="tel" name="phone" placeholder="123 456 7890" pattern="[0-9]{10,}" class="standardInput" required></label>
+                    <label class="standardLabel">Zip Code<input type="number" name="zipcode" placeholder="12345" class="standardInput" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Information</legend>
+                    <label class="standardLabel">Storm Date<input type="date" name="stormdate" class="dateColor standardInput" id="dateColor" onclick="changeColor()"></label>
+                    <label class="standardLabel">Storm Type<input list="stormlist" name="stormtype" placeholder="Select Type of Storm" class="standardInput"></label>
+                        <datalist id="stormlist">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+                    <label class="standardLabel">Storm Severity: <span id="severityRange"></span><input type="range" class="slider" id="severityRangeInput" name="severity" min="1" max="10"></label>
+                    <label class="standardLabel">Storm Region
+                        <select name="stormregion" class="standardInput">
+                            <option disabled selected>Select Region</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodasprings">Soda Springs</option>
+                            <option value="fishhaven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <label class="dangerLabel">Are you in danger?</label>
+                    <label class="radioLabel"><input type="radio" name="personaldanger" value="yes"> yes</label>
+                    <label class="radioLabel"><input type="radio" name="personaldanger" value="maybe"> maybe</label>
+                    <label class="radioLabelLast"><input type="radio" name="personaldanger" value="no"> no</label>
+                    <label class="standardLabel">Comments<textarea name="comment" placeholder="Additional information or comments" class="standardInput textArea"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Report My Storm">
+            </form>
+            <div class="reportStormImg">
+                <img src="storm.jpg" alt="tornado in countryside"> 
+            </div>
+        </div>
+    </main>
+    <footer>
+ 
+        <div id="footerBar">
+            <p>&copy;Idaho Met Service | <a href="https://openweathermap.org/"> Open Weather Map</a> | Shiekahadd Ali 
+            <br><span id="output"></span></p>
+        </div> 
+    </footer>
+    <script src="preston.js"></script>
+    <script src="stormcenter.js"></script>
+    <script src="every.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>

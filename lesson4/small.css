@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+}
+footer, main {
+	max-width: 80em;
+	margin: 0 auto;
+}
+header, nav {
+	margin: 0 auto;
+}
+
+header {
+	background-color: #153e5c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header img {
+	width: 80px;
+	height:	auto;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.headings h1 {
+	font-size: 20px;
+	color: #ffffff;
+	margin: 0;
+}
+.moto {
+	color: #f2be54;
+	font-style: italic;
+	font-size: 12px;
+}
+
+nav {
+	background-color: #f2be54;
+}
+.navigation {
+	max-width: 80em;
+	list-style: none;
+	background-color: #f2be54;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	font-size: 16px;	
+	color: #000000;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.responsive li {
+	display: block;
+}
+nav a:hover {
+	background-color: #153e5c;
+	color: #ffffff;
+}
+.active {
+	background-color: #cacfd4;
+	border-left: 4px solid #153e5c;
+	border-right: 4px solid #153e5c;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+main div {
+	border: dotted 1px #153e5c;
+	background-color: #cacfd4;
+	margin: 15px;
+	padding: 15px;
+    font-style: italic; 
+}
+
+footer {
+	background-color: #f2be54;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+footer p {
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 20px;
+	color: #153e5c;
+}
+h2 {
+	font-size: 16px;
+	color: #153e5c;
+    text-align: center;
+	font-weight: bolder;
+}
+h3 {
+	font-size: 14px;
+	color: #153e5c;
+}
+p {
+	font-size: 12px;
+}

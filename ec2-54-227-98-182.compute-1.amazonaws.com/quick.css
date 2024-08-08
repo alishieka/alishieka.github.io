@@ -1,0 +1,412 @@
+body,
+ul,
+p,
+li,
+ol,
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.64em;
+}
+
+body {
+    background-color: #0d1633;
+    background-image: repeating-linear-gradient(33deg, rgb(23, 72, 105) 0%, rgba(14, 27, 61, 1) 25%, rgba(159, 203, 228, 1) 32%, rgba(13, 22, 51, .5) 50%);
+    /* background: linear-gradient(228deg,  rgba(224,215,38,1) 0%, rgba(216,200,65,1) 32%, rgba(120,205,128,1) 64%, rgba(99,205,138,1) 100%);     */
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 400px 1fr 0;
+    max-width: 940px;
+    column-gap: 60px;
+    box-shadow: 5px 5px 15px #00000023;
+    background-color: white;
+}
+
+nav {
+    margin-top: 20px;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(4, auto);
+    gap: 4px;
+}
+
+main img {
+    width: 100%;
+    max-width: 400px;
+    justify-self: center;
+}
+
+main h1 {
+    margin-top: 50px;
+    border-bottom: solid 3px gray;
+    padding-bottom: 18px;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main h2 {
+    font-size: 0.95em;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 47px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: solid 3px gray;
+    padding-bottom: 18px;
+    color: royalblue;
+}
+
+strong {
+    color: #0d1633;
+}
+
+main p,
+main li {
+    line-height: 1.6em;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+}
+
+main li {
+    margin-bottom: 10px;
+    margin-left: -25px;
+}
+
+.box-holder {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3px;
+    width: 60px;
+}
+
+.box {
+    width: 13px;
+    height: 13px;
+    background-color: black;
+    text-decoration: none;
+}
+
+.box.light {
+    background-color: gray;
+}
+
+.main {
+    grid-column: 1/-1;
+    background-color: #0d1633;
+    color: white;
+    text-align: left;
+    padding: 25px 50px;
+}
+
+.main h3 {
+    color: #f9a60a;
+}
+
+.main strong {
+    color: #9fcbe4;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/-1;
+    gap: 50px;
+    margin: 0 50px;
+}
+
+.quotes {
+    font-size: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: -40px;
+}
+
+.quotes span {
+    display: inline;
+    position: relative;
+    top: -3px;
+    left: -3px;
+    font-weight: bold;
+}
+
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-top: 52px;
+}
+
+.formgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* max-width:500px; */
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.formgrid label {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.formgrid input {
+    padding: 5px;
+}
+
+.formgrid input[type=text] {
+    margin-bottom: 10px;
+}
+
+.formgrid input[type=submit] {
+    margin-top: 30px;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.formgrid input[type=text]:focus,
+.formgrid input[type=password]:focus,
+.form-input:focus {
+    box-shadow: 0 0 10px #3cb0fd6e;
+    outline: 0px none transparent;
+}
+
+.formgrid textarea {
+    height: 100px;
+}
+
+.bluebg {
+    background-color: #0e1d3b;
+    display: grid;
+}
+
+.btn {
+    background: #154569;
+    background-image: -webkit-linear-gradient(top, #154569, #2980b9);
+    background-image: -moz-linear-gradient(top, #154569, #2980b9);
+    background-image: -ms-linear-gradient(top, #154569, #2980b9);
+    background-image: -o-linear-gradient(top, #154569, #2980b9);
+    background-image: linear-gradient(to bottom, #154569, #2980b9);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    text-decoration: none;
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    color: #154569;
+}
+
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active,
+nav a:focus {
+    text-decoration: none;
+    background-color: #0e1d3b;
+    color: white;
+    padding: 5px 15px;
+}
+
+nav a:hover {
+    color: #0e1d3b;
+    background-color: #3cb0fd;
+}
+
+#message.show {
+    display: block;
+}
+
+#message {
+    display: none;
+    background-color: #f9a60a;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid 4px #e23901;
+    transition: 0.5s ease;
+    /* Transition effect for max-height */
+    max-height: 100px;
+    /* Set max-height to a value that accommodates your message */
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+#message.fade {
+    max-height: 0;
+    /* Shrink to 0 height */
+    padding: 0;
+    /* Remove padding */
+    border-width: 0;
+    margin-bottom: 0;
+}
+
+#requests {
+    margin-bottom: 50px;
+    background-color: #99c7e5;
+    padding: 20px;
+}
+
+#requests .serviceinfo {
+    padding-bottom: 50px;
+}
+
+#requests.adminrequests {
+    grid-column: 1/-1;
+    background-color: white;
+}
+
+#requests.adminrequests section {
+    padding: 20px;
+}
+
+#requests.adminrequests section:nth-child(odd) {
+    background-color: floralwhite;
+}
+
+.admin-service-request {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.admin-service-request h3 {
+    grid-column: 1/-1;
+}
+
+.w3-gray {
+    /* background-color: #5896bc !important; */
+    background-image: repeating-linear-gradient(90deg, rgb(23, 72, 105) 0%, rgba(14, 27, 61, 1) 25%, rgba(159, 203, 228, 1) 100%);
+    height: 24px;
+}
+
+.w3-light-gray {
+    border: solid 1px #0d1633;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.loading {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+
+.updateStatus select {
+    width: 100%;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.form-input {
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.plate {
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 14px 8px;
+    background-image: url("images/idplate.jpg");
+    background-size: cover;
+    min-width: 94px;
+    display: inline-block;
+    text-align: center;
+    background-position-y: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    color: black;
+}
+
+.plate:link,
+.plate:visited,
+.plate:hover,
+.plate:active,
+.plate:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Tooltip text */
+
+.plate .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #2980b9;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 12px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.plate:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        place-items: start;
+    }
+    main {
+        grid-template-columns: 1fr;
+        width: 100%;
+        background-image: inherit;
+    }
+    main section {
+        padding: 0 15px;
+        background-color: white;
+    }
+    .bottom {
+        grid-template-columns: 1fr;
+    }
+    nav {
+        /* padding-right:15px; */
+    }
+    .admin-service-request {
+        grid-template-columns: 1fr;
+    }
+    .updateStatus button {
+        width: 100%;
+    }
+    .formgrid {
+        width: 100%;
+    }
+}

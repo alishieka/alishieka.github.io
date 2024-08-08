@@ -1,0 +1,1352 @@
+
+
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'Alice', serif;
+
+}
+
+
+
+header h2 {
+
+    margin-bottom: 0;
+
+}
+
+
+
+header {
+
+    background-color: #534A3C;
+
+    color: #FFFFFF;
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+}
+
+.logo-title-div {
+
+    max-width: 700px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+
+
+.site-logo {
+
+    max-width: 200px;
+
+}
+
+.title-heading-div h1 {
+
+   
+
+}
+
+
+
+nav {
+
+    background-color: #A0AC60;
+
+    color: #FFFFFF;
+
+    
+
+    font-size: 1.25em;
+
+}
+
+
+
+nav ul {
+
+    max-width: 768px;
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center;
+
+    text-align: center;
+
+    list-style: none; 
+
+    flex-direction: column; 
+
+    padding-left: 0px;
+
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+nav li {
+
+    width: 100%;
+
+    display: flex;
+
+}
+
+
+
+nav a {
+
+    display: block;
+
+    transition-duration: 1s;
+
+    text-decoration: none;
+
+    padding: 1em;
+
+    padding-left: 2.5em;
+
+    padding-right: 2.5em;
+
+}
+
+
+
+nav a:link {
+
+    color: #FFFFFF;
+
+}
+
+
+
+nav a:visited {
+
+    color: #FFFFFF;
+    
+}
+
+
+
+nav a:hover {
+
+    color: #534A3C;
+    
+}
+
+
+
+nav a:active {
+
+    color: #534A3C;
+    
+}
+
+
+
+a.current-page:link {
+
+    background-color: #534A3C;
+
+    color: #A0AC60;
+
+}
+
+a.current-page:visited {
+
+    background-color: #534A3C;
+
+    color: #A0AC60;
+
+}
+
+a.current-page:hover {
+
+    background-color: #534A3C;
+
+    color: #FFFFFF;
+
+}
+
+a.current-page:active {
+
+    background-color: #534A3C;
+
+    color: #FFFFFF;
+
+}
+
+
+
+main {
+
+    background-color: #FFFFFF;
+
+    color: #534A3C;
+
+}
+
+
+
+.banner-floating-text-container {
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+
+.centered-floating-text {
+
+    position: static;
+
+   
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    padding: 30px;
+    
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+    font-size: 1.1em;
+
+}
+
+.centered-floating-text div {
+
+    background-color: rgba(83, 74, 60, 1);
+
+    max-width: 400px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+    margin-top: 60px;
+
+}
+
+
+.centered-floating-text a:link {
+
+    color: #FFFFFF;
+
+}
+
+.centered-floating-text:visited {
+
+    color: #FFFFFF;
+
+}
+
+.centered-floating-text:hover {
+
+    color: #FFFFFF;
+
+}
+
+.centered-floating-text:active {
+
+    color: #FFFFFF;
+
+}
+
+
+
+
+.banner-image {
+
+    display: none;
+
+}
+
+
+
+.about-text-div {
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+}
+
+
+
+.temple-summary-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.temple-summary-div div {
+
+    width: 100%;
+
+}
+
+.temple-summary-photo-div img {
+
+    max-width: 100%;
+
+    margin-bottom: -3px;
+
+}
+
+
+
+.temple-summary-text-div {
+
+ 
+
+    background-color: #A0AC60;
+
+    color: #FFFFFF;
+
+    border-bottom: 3px solid #FFFFFF;
+
+}
+
+.temple-summary-text-div h2, .temple-summary-div p {
+
+    padding-left: 25px;
+
+    padding-right: 25px;
+
+}
+
+
+
+
+
+.contact-information-div {
+
+    margin-top: 50px;
+
+    display: flex;
+
+    padding-bottom: 50px;
+
+    flex-direction: column;
+
+}
+
+
+.contact-information-div div {
+
+    width: 100%;
+
+}
+
+
+
+
+footer {
+
+    background-color: #A0AC60;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+}
+
+
+.temple-summary-photo-div img {
+
+    width: 100%;
+
+}
+
+
+.single-temple-info-container-div {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.single-temple-info-container-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 0px;
+
+}
+
+.single-temple-info-image-div {
+
+    width: 100%;
+
+    margin-bottom: -3px;
+
+}
+
+.single-temple-info-image-div img {
+
+    width: 100%;
+
+}
+
+.single-temple-info-text-div {
+
+    width: 100%;
+
+    text-align: center;
+
+    background-color: #A0AC60;
+
+}
+
+
+
+.single-temple-info-text-div a {
+
+    color: #534A3C;
+
+}
+
+.single-temple-info-text-div a:link {
+
+    color: #534A3C;
+
+}
+
+.single-temple-info-text-div a:visited {
+
+    color: #534A3C;
+
+}
+
+.single-temple-info-text-div a:hover {
+
+    color: #DED2A8;
+
+}
+
+.single-temple-info-text-div a:active {
+
+    color: #DED2A8;
+
+}
+
+.single-temple-info-image-div img {
+
+    max-width: 100%;
+
+}
+
+
+.color-highlight {
+
+    color: #534A3C;
+
+}
+
+
+.click-text {
+
+    display: inline;
+
+}
+
+
+.click-text:before {
+
+    color: #534A3C;
+    content: "Click ";
+
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+
+.tooltip .tooltiptext {
+
+    width: 200px;
+    background-color: #534A3C;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+
+    top: 100%;
+    left: 40%;
+    
+}
+
+
+.tooltiphide {
+
+    visibility: hidden;
+    display: none;
+
+}
+
+.tooltipshow {
+
+    visibility: visible;
+    display: inline;
+
+}
+
+
+.no-list-style {
+
+    list-style: none;
+
+}
+
+.temple-info-page-container-div {
+
+    margin-top: 60px;
+
+    margin-bottom: 60px;
+
+    color: #FFFFFF;
+    
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.remove-top-margin-h2 {
+
+    margin-top: 0px;
+
+}
+
+.temple-quote {
+
+    font-size: 1.5em;
+
+}
+
+.temple-quote-div {
+
+    max-width: 500px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 60px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+}
+
+
+
+hr {
+
+    height: 6px;
+
+    color: #A0AC60;
+
+    background-color: #A0AC60;
+
+    border-color: #A0AC60;
+
+    max-width: 30px;
+
+    margin-left: 0px;
+
+    border: 0px;
+
+}
+
+.temple-page-title {
+
+    margin-top: 60px;
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.tagline {
+
+    -webkit-animation: fade 3s;
+    -moz-animation: fade 3s;
+    -ms-animation: fade 3s;
+    -o-animation: fade 3s;
+    -animation: fade 3s;
+
+}
+
+@keyframes fade{
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+    
+}
+
+@-moz-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+@-webkit-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+@-ms-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+@-o-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+.navigation li {
+
+    display: none; 
+
+}
+
+.navigation li:first-child {
+
+    display: block; 
+
+}
+
+.responsive li {
+
+    display: block;
+
+}
+
+.service-body-text {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 60px;
+
+}
+
+.reservation-body-text {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.reservation-form-input-div {
+
+    padding: 10px;
+
+    color: #DED2A8
+
+}
+
+textarea {
+
+    width: 100%;
+
+}
+
+.reservation-form {
+
+    background-color: #534A3C;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin-bottom: 60px;
+
+    font-size: 1.3em;
+
+}
+
+.reservation-form-fieldset {
+
+    color: #A0AC60;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    border: 2px solid #A0AC60;
+
+    border-radius: 4px;
+
+}
+
+.reservation-form-class {
+
+    color: #A0AC60;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+}
+
+#submit-button {
+
+    background-color: #A0AC60;
+
+    color: #FFFFFF;
+
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+#submit-button:hover {
+
+    background-color: #A0AC60;
+
+    color: #534A3C;
+
+}
+
+.reservation-body-text h2 {
+
+    margin-top: 60px; 
+
+}
+
+.service-body-text h2 {
+
+    margin-top: 60px; 
+
+}
+
+.weird-reservation-form-spacing {
+
+    margin-bottom: 60px;
+
+}
+
+#temple-entry-link:link {
+
+    color: #A0AC60;
+
+}
+
+#temple-entry-link:visited {
+
+    color: #A0AC60;
+
+}
+
+#temple-entry-link:hover {
+
+    color: #534A3C;
+    
+}
+
+#temple-entry-link:active {
+
+    color: #534A3C;
+    
+}
+
+.reservation-form-input-div input, .reservation-form-input-div select, .reservation-form-input-div textarea {
+
+    border-radius: 8px;
+
+}
+
+.reservation-quote {
+
+    font-size: 1.5em;
+
+}
+
+.reservation-quote-div {
+
+    max-width: 500px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 60px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
+
+}
+
+.contact-main-div {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+}
+
+address {
+
+    font-style: normal;
+
+}
+
+.contact-email-div {
+
+    margin-bottom: 60px;
+
+}
+
+.contact-map-div {
+
+    margin-bottom: 60px;
+
+    width: 100%;
+
+}
+
+.contact2-information-div {
+
+    width: 100%;
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+}
+
+.contact-map-flex-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.contact-main-div h2 {
+
+    margin-top: 60px;
+
+}
+
+.contact2-information-div p {
+
+    padding-right: 30px;
+
+}
+
+.contact-form-heading {
+
+    margin-top: 30px!important;
+
+}
+
+.contact-form-hr {
+
+    margin-bottom: 30px;
+
+}
+
+.contact2-information-div a:link {
+
+    color: #A0AC60;
+
+}
+
+.contact2-information-div a:visited {
+
+    color: #A0AC60;
+
+}
+
+.contact2-information-div a:hover {
+
+    color: #534A3C;
+
+}
+
+.contact2-information-div a:active {
+
+    color: #534A3C;
+
+}
+
+.service-body-text a:link {
+
+    color: #A0AC60;
+
+}
+
+.service-body-text a:visited {
+
+    color: #A0AC60;
+
+}
+
+.service-body-text a:hover {
+
+    color: #534A3C;
+
+}
+
+.service-body-text a:active {
+
+    color: #534A3C;
+
+}
+
+
+
+
+
+.services-flex-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.services-flex-text-div {
+
+    width: 100%;
+
+    background-color: #A0AC60;
+
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+
+    padding: 50px;
+
+}
+
+.services-flex-image-div {
+
+    width: 100%;
+
+}
+
+.services-flex-image-div img {
+
+    width: 100%;
+
+}
+
+.service-body-text hr {
+
+    margin-bottom: 30px;
+
+}
+
+
+.thanks-body-div {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 100px;
+
+    margin-bottom: 300px;
+
+}
+
+.thanks-image-div {
+
+    max-width: 200px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.thanks-image-div img {
+
+    width: 100%;
+
+}
+
+.thanks-text-div {
+
+    text-align: center;
+
+    font-size: 2em;
+
+}
+
+.centered-floating-text div:after {
+
+    content: ' \00bb';
+
+    opacity: 0;
+
+    top: 0;
+
+    right: -20px;
+
+    transition: 0.5s;
+
+}
+
+.centered-floating-text:hover div:after {
+
+    opacity: 1;
+
+    right: 0;
+
+}
+
+.about-text-div {
+
+    padding-left: 10px;
+    
+    padding-right: 10px;
+
+}
+
+.contact-information-div {
+
+    padding-left: 10px;
+    
+    padding-right: 10px;
+
+}
+
+.temple-page-title {
+
+    padding-left: 10px;
+
+}
+
+.service-body-text h2, .service-body-text hr {
+
+    margin-left: 10px;
+
+}
+
+.reservation-body-text h2, .reservation-body-text hr, .reservation-body-text p {
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+}
+
+.contact-main-div h2, .contact-main-div hr {
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+}
+
+footer {
+
+    text-decoration: none;
+
+}
+
+.social-media-icon-div {
+
+    margin-top: 10px;
+
+}
+
+.social-media-icon-div a  {
+
+    margin-left: 5px;
+
+    margin-right: 5px;
+
+}
+
+.social-media-icon-div a img {
+
+    max-width: 16px;
+
+}
+
+.reservation-form-input-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+strong img {
+
+    max-width: 16px;
+
+}
+
+iframe {
+
+    border-width: 0px;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.contact-span a:link{
+
+    color: #A0AC60;
+
+}
+
+.contact-span a:visited{
+
+    color: #A0AC60;
+
+}
+
+.contact-span a:hover{
+
+    color: #534A3C;
+
+}
+
+.contact-span a:active{
+
+    color: #534A3C;
+
+}
+
+.home-page-contact-text-div {
+
+    margin-bottom: 30px;
+
+}
+
+footer small a {
+
+    text-decoration: none;
+
+}
+
+footer small a:link {
+
+    color: #A0AC60;
+
+    }
+
+    #footerBar {
+        background-color: #A0AC60 ;
+       
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+footer small a:visited {
+
+    color: #A0AC60;
+
+}
+
+footer small a:hover {
+
+    color: #A0AC60;
+
+}
+
+footer small a:active {
+
+    color: #A0AC60;
+
+}
+
+.resource-summary-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 496px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 60px;
+
+    margin-bottom: 60px;
+
+}
+
+.resource-summary-div div {
+
+    width: 100%;
+
+}
+
+.resource-summary-photo-div img {
+
+    max-width: 100%;
+
+}
+
+.resource-link-div {
+
+    color: #FFFFFF;
+
+}
+
+.sources-used-h2 {
+
+    color: #534A3C;
+
+}
+
+.resource-link-div a:link {
+
+    color: #A0AC60;
+
+}
+
+.resource-link-div a:visited {
+
+    color: #A0AC60;
+
+}
+
+.resource-link-div a:hover {
+
+    color: #A0AC60;
+
+}
+
+.resource-link-div a:active {
+
+    color: #A0AC60;
+
+}
+
+.resource-text-box-background{
+
+    background-color: #534A3C;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    margin-top: 60px;
+
+}
+
+fieldset {
+
+    min-width: 0;
+
+}

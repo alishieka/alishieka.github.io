@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soda Springs site page for week 11 in WDD 230."> 
+    <title>Idaho Met Service</title>
+    <link rel="shortcut icon" href="sitelogo.png">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+</head>
+<body>
+    <header>
+        <a href="./"><img src="sitelogo.png" alt="site logo"></a>
+        <section class="headings">
+            <h1>Idaho Met Service</h1>
+            <div class="moto">Serving you every season</div>
+        </section>        
+    </header>  
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">☰ Menu</a></li>
+            <li><a href="https://alishieka.github.io/lesson9/index.html">Home</a></li>
+            <li><a href="https://alishieka.github.io/lesson-10/preston-10.html">Preston</a></li>
+            <li class="active"><a href="https://alishieka.github.io/lesson-11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://alishieka.github.io/lesson11-fishhaven/fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://alishieka.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://alishieka.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Soda Springs Idaho</h2>
+        <div id="heroArea">
+
+            <picture>
+                <source media="(min-width:1000px)" srcset="large.jpg">
+                    <source media="(min-width:600px)" srcset="medium.jpg">
+            <source media="(min-width:300px)" srcset="small.jpg">
+           
+            <img src="small.jpg" alt="soda springs image">          </picture> 
+
+           
+           
+            <section id="weatherSummary">
+                <h3><u>Weather Summary</u></h3>
+                <label>Currently:</label> <p><span id="desSoda"></span></p>
+                <label>Temperature:</label> <p><span id="temperatureSoda"></span>&deg;F</p>
+                <label>Wind Chill:</label><p><span id="windChill"></span></p>
+                <label>Humidity:</label> <p><span id="humiditySoda"></span>%</p>
+                <label>Wind Speed:</label> <p><span id="windSpeedSoda"></span> mph</p>
+            </section>
+        </div>
+        <div id="forcastArea">
+            <h3>5 Day Forecast</h3>
+            <div id="forcastFive">
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek1"></span></p>
+                    <img id="icon1" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast1"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek2"></span></p>
+                    <img id="icon2" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast2"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek3"></span></p>
+                    <img id="icon3" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast3"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek4"></span></p>
+                    <img id="icon4" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast4"></span>&deg;F</p>
+                </div>
+                <div class="forcastCol">
+                    <p class="forcastDay"><span id="dayWeek5"></span></p>
+                    <img id="icon5" src="forecast.svg" alt="weather pic">
+                    <p class="forcastTemp"><span id="forecast5"></span>&deg;F</p>
+                </div>
+            </div>
+        </div>
+        <div class="eventBorder">
+            <div class="eventArea"><h3>Upcoming Events</h3><span id="eventSoda"></span></div>
+        </div>
+        <div id="articleArea">    
+            <h3>Soda Springs Idaho’s Geyser Park</h3>
+            <figure class="articleImg">
+                <img src="geyser.jpg" alt="picture of article" loading="lazy">
+            </figure>
+            <p>Adjacent to the popular Oregon Trail, the city of Soda Springs, in the state of Idaho, has a unique attraction called the Soda Springs Geyser. The geographic region has been known for its geothermal activity for a long time. The geyser was discovered in 1937 during an effort to find water naturally for a swimming pool. The geyser was uncovered while drilling into a subterranean chamber that contained a mixture of water and carbon dioxide gas. </p>
+            <p>Today, the Soda Springs geyser goes off every hour on the hour and is controlled manually by the city. Access to view the geyser is free, but one may submit donations in the nearby museum. On average, this geyser normally propels water over 100 feet into the atmosphere with an estimated 2000 gallons of flowing every minute. The water temperature is around 72 degrees Fahrenheit. </p>
+            <p><i>Written by Brigham Young University</i></p>
+        </div>
+    </main>
+    <footer>
+        <div id="contactArea">
+            <img id="mapImg" src="sodaspringsmap.JPG" alt="Soda Springs map" loading="lazy">
+            <section id="contactTextArea">
+                <h3>Contact Information</h3>
+                <p>30 N 1st E<br>Soda Springs, ID 83263</p>
+                <p>☎ 208.625.2640<br>✉ contact@idahometservices.us</p>
+                <div>
+                    <a href="https://facebook.com/" target="_blank"><img class="socialIcon" src="facebook.png" alt="facebook" loading="lazy">&ensp;</a>
+                    <a href="https://pintrest.com/" target="_blank"><img class="socialIcon" src="pintrest.png" alt="pintrest" loading="lazy">&ensp;</a>
+                    <a href="https://twitter.com/" target="_blank"><img class="socialIcon" src="twitter.png" alt="twitter" loading="lazy"></a>
+                </div>
+            </section>
+        </div>   
+        <div id="footerBar">
+            <p>&copy;Idaho Met Service | <a href="https://openweathermap.org/">Open Weather Map</a> | Shiekahadd Ali 
+            <br><span id="output"></span></p>
+        </div> 
+    </footer>
+    <script src="event.js"></script>
+    <script src="soda.js"></script>
+    <script src="summary.js"></script>
+    <script src="every.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Roboto"]}});</script>
+</body>
+</html>

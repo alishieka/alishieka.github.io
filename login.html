@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUICK oil change and repair</title>
+    <link rel="stylesheet" href="quick.css?v=7">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1611.0.min.js"></script>
+    <!-- <script src="https://rawgit.com/aws/amazon-cognito-identity-js/master/dist/aws-cognito-sdk.min.js"></script>
+    <script src="https://rawgit.com/aws/amazon-cognito-identity-js/master/dist/amazon-cognito-identity.min.js"></script>     -->
+    <script src="scripts/aws-cognito-sdk.min.js"></script>
+    <script src="scripts/amazon-cognito-identity.min.js"></script>
+    <script src="scripts/login.js?v=7" type="module"></script>
+    <script src="scripts/default.js" type="module"></script>
+
+    <!-- <script src="scripts/getMessage.js"></script> -->
+</head>
+
+<body>
+    <main>
+        <div class="bluebg">
+
+            <img src="images/quick-logo.jpg" alt="Quick Oil Change & Repair">
+        </div>
+        <section>
+            <nav id="nav" class="notloggedin"><a href="index.html">Home</a><a href="request-service.html">Request Service</a><a href="login.html">Login</a></nav>
+            <h1>
+                Quick Oil Change &amp; Repair
+            </h1>
+            <div id="message"></div>
+            <form class="formgrid">
+                <label for="username">User Name</label><input id="username" name="username" type="text">
+                <label for="passwd">Password</label><input type='password' id="passwd" name="passwd">
+                <input class="btn" type="submit" value="Login">
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
