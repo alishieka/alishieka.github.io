@@ -44,7 +44,8 @@
                     <legend>Contact Information</legend>
                     <label class="standardLabel">Full Name<input type="text" name="fullname" pattern="[\sa-zA-Z]{5,}" placeholder="John Doe" class="standardInput" required></label>
                     <label class="standardLabel">Email<input type="email" name="email" placeholder="example@demo.com" class="standardInput"></label>
-                    <label class="standardLabel">Phone Number<input type="tel" name="phone" placeholder="123 456 7890" pattern="[0-9]{10,}" class="standardInput" required></label>
+                    <label class="standardLabel">Phone Number<input type="tel" name="phone" placeholder="123 456 7890" pattern="\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}" class="standardInput" required>
+                    </label>
                     <label class="standardLabel">Zip Code<input type="number" name="zipcode" placeholder="12345" class="standardInput" required></label>
                 </fieldset>
                 <fieldset>
